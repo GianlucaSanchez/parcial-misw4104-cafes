@@ -7,3 +7,8 @@
   color: #fff;
   border-color: #333a40;
 }
+
+.totales p {
+  font-size: 20px;
+  margin: 0;
+}
