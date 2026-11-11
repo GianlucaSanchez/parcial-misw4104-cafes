@@ -1,0 +1,9 @@
+.table {
+  font-size: 18px;
+}
+
+.table thead th {
+  background-color: #333a40;
+  color: #fff;
+  border-color: #333a40;
+}
