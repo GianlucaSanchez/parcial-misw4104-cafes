@@ -1,13 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { App } from './app';
-import { CafeModule } from './cafe/cafe-module';
+import { AppModule } from './app-module';
 
 describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [App],
-      imports: [CafeModule],
+      imports: [AppModule],
       providers: [provideHttpClientTesting()],
     }).compileComponents();
   });
